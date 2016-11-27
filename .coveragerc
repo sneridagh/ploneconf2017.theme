@@ -1,0 +1,6 @@
+[report]
+include =
+    src/ploneconf2016/*
+omit =
+    */test*
+    */upgrades/*
