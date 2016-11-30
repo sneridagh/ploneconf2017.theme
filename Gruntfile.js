@@ -14,7 +14,7 @@ module.exports = function (grunt) {
                     strictMath: false,
                     sourceMap: true,
                     outputSourceFiles: true,
-                    sourceMapURL: '++theme++ploneconf2016/less/theme-compiled.css.map',
+                    sourceMapURL: '++theme++ploneconf2017/less/theme-compiled.css.map',
                     sourceMapFilename: 'less/theme-compiled.css.map',
                     modifyVars: {
                         "isPlone": "false"
@@ -91,7 +91,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-postcss');
 
     // CWD to theme folder
-    grunt.file.setBase('./src/ploneconf2016/theme/theme');
+    grunt.file.setBase('./src/ploneconf2017/theme/theme');
 
     grunt.registerTask('compile', ['less', 'postcss']);
     grunt.registerTask('default', ['compile']);

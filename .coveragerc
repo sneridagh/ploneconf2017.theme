@@ -1,6 +1,6 @@
 [report]
 include =
-    src/ploneconf2016/*
+    src/ploneconf2017/*
 omit =
     */test*
     */upgrades/*

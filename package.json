@@ -1,6 +1,6 @@
 {
   "//": "Put here only devDependencies, theme dependencies should stay inside of the theme folder.",
-  "name": "ploneconf2016.theme",
+  "name": "ploneconf2017.theme",
   "version": "1.0.0",
   "devDependencies": {
     "grunt": "~0.4.4",

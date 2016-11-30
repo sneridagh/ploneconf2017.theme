@@ -1,4 +1,4 @@
-graft src/ploneconf2016
+graft src/ploneconf2017
 graft docs
 include *.rst
 global-exclude *.pyc

@@ -3,7 +3,7 @@
    This text does not appear on pypi or github. It is a comment.
 
 ==============================================================================
-ploneconf2016.theme
+ploneconf2017.theme
 ==============================================================================
 
 Tell me what your product does
@@ -38,14 +38,14 @@ This product has been translated into
 Installation
 ------------
 
-Install ploneconf2016.theme by adding it to your buildout::
+Install ploneconf2017.theme by adding it to your buildout::
 
     [buildout]
 
     ...
 
     eggs =
-        ploneconf2016.theme
+        ploneconf2017.theme
 
 
 and then running ``bin/buildout``
@@ -54,8 +54,8 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/ploneconf2016.theme/issues
-- Source Code: https://github.com/collective/ploneconf2016.theme
+- Issue Tracker: https://github.com/collective/ploneconf2017.theme/issues
+- Source Code: https://github.com/collective/ploneconf2017.theme
 - Documentation: https://docs.plone.org/foo/bar
 
 

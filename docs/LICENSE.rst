@@ -1,4 +1,4 @@
-ploneconf2016.theme Copyright 2016, Victor Fernandez de Alba
+ploneconf2017.theme Copyright 2016, Victor Fernandez de Alba
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License version 2

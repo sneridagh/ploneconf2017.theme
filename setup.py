@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Installer for the ploneconf2016.theme package."""
+"""Installer for the ploneconf2017.theme package."""
 
 from setuptools import find_packages
 from setuptools import setup
@@ -13,7 +13,7 @@ long_description = '\n\n'.join([
 
 
 setup(
-    name='ploneconf2016.theme',
+    name='ploneconf2017.theme',
     version='1.0a1',
     description="The Plone Conference 2016 Theme package",
     long_description=long_description,
@@ -30,10 +30,10 @@ setup(
     keywords='Python Plone',
     author='Victor Fernandez de Alba',
     author_email='sneridagh@gmail.com',
-    url='https://pypi.python.org/pypi/ploneconf2016.theme',
+    url='https://pypi.python.org/pypi/ploneconf2017.theme',
     license='GPL version 2',
     packages=find_packages('src', exclude=['ez_setup']),
-    namespace_packages=['ploneconf2016'],
+    namespace_packages=['ploneconf2017'],
     package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,
