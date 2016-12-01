@@ -7,6 +7,7 @@
 
   <theme href="base.html" />
   <theme href="index.html" if-content="//body[contains(@class, 'section-front-page')]" />
+  <theme href="contact.html" if-content="//body[contains(@class, 'template-contact-info')]" />
 
   <notheme css:if-not-content="#visual-portal-wrapper" />
 
@@ -36,7 +37,13 @@
   <copy attributes="*" css:content="body" css:theme="body" />
 
   <!-- move global nav -->
-  <replace css:theme-children="#mainnavigation" css:content-children="#portal-mainnavigation" method="raw" />
+  <!-- <replace css:theme-children="#mainnavigation" css:content-children="#portal-mainnavigation" method="raw" /> -->
+  <replace css:theme=".nav.navbar-nav">
+    <ul class="nav navbar-nav">
+      <li><a href="{$portal_url}/sponsors">Sponsors <span class="sr-only">(current)</span></a></li>
+      <li><a href="{$portal_url}/contact-info">Contact</a></li>
+    </ul>
+  </replace>
 
   <!-- full-width breadcrumb -->
   <replace css:content="#viewlet-above-content" css:theme="#above-content" />
