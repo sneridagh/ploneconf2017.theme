@@ -240,7 +240,7 @@ main {padding:60px 0 0;}
     background-color: transparent;
 }
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-    max-height: auto;
+    max-height: initial;
     height:100vh;
 }
 .main-footer .glyphicon {
