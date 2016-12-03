@@ -57,7 +57,6 @@ p {font-weight:300; color:#5c5c5c; font-size:18px; margin:0 0 15px;}
   }
 }
 
-
 .header {
   padding-top:80px;
   background-image: url(../img/header-bg.svg);
@@ -68,6 +67,11 @@ p {font-weight:300; color:#5c5c5c; font-size:18px; margin:0 0 15px;}
   background-blend-mode: soft-light;
   background-blend-mode: luminosity;
   -webkit-background-blend-mode: soft-light;
+}
+@media screen and (max-width: 767px) {
+  .header {
+    padding-top: 60px;
+  }
 }
 .header .container {
   position: relative;
@@ -90,6 +94,14 @@ p {font-weight:300; color:#5c5c5c; font-size:18px; margin:0 0 15px;}
   color: fff;
 }
 .header h1 {margin:.5em 0 2em;}
+@media screen and (max-width: 767px) {
+  .header h1 {
+    margin-top: 0.5em;
+    margin-right: 0px;
+    margin-bottom: 1.5vh;
+    margin-left: 0px;
+  }
+}
 .header h1 img {
   max-width:100%;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.15), 0 2px 4px 0 rgba(0,0,0,0.15);
@@ -107,12 +119,22 @@ p {font-weight:300; color:#5c5c5c; font-size:18px; margin:0 0 15px;}
   .header-section h1 + h1 {font-size:48px; margin-right:0;}
 }
 
+@media (max-width: 769px) {
+  #edit-zone .plone-toolbar-logo, .plone-toolbar-expanded #edit-zone .plone-toolbar-logo {
+    top: 50px;
+  }
+}
 
 .conference-flex {display:flex; flex-direction: column;}
 .conference-flex :nth-child(1) {flex:1; order: 4;}
 .conference-flex :nth-child(2) {flex:1; order: 3;}
 .conference-claim {flex:1; order: 1; font-size:18px; font-weight:300; margin:0;}
-  .conference-claim img {margin-top:-5px;}
+.conference-claim img {margin-top:-5px;}
+@media screen and (max-width: 320px) {
+  .conference-claim {
+    font-size: 16px;
+  }
+}
 .conference-time {flex:1; order: 2; font-size:36px; font-weight:300; margin:0;}
 .conference-time strong {font-weight:900;}
 .adjust-margin {margin-left:5px; margin-right:5px;top: -2px;position: relative;}
@@ -197,8 +219,6 @@ main {padding:60px 0 0;}
 .social i { font-size: 20px }
 
 /* Plone overrides */
-@media (min-width: 769px) {
-  .plone-toolbar-left #edit-zone {
-    z-index: 2000;
-  }
+.plone-toolbar-left #edit-zone {
+  z-index: 2000;
 }
