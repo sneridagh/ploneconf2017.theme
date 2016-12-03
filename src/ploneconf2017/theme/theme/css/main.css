@@ -93,7 +93,7 @@ p {font-weight:300; color:#5c5c5c; font-size:18px; margin:0 0 15px;}
   text-align: center;
   color: fff;
 }
-.header h1 {margin:.5em 0 2em;}
+.header h1 { margin: .5em 0 .5em; }
 @media screen and (max-width: 767px) {
   .header h1 {
     margin-top: 0.5em;
@@ -105,6 +105,7 @@ p {font-weight:300; color:#5c5c5c; font-size:18px; margin:0 0 15px;}
 .header h1 img {
   max-width:100%;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.15), 0 2px 4px 0 rgba(0,0,0,0.15);
+  max-height: 80vw;
 }
 .header-section h1 img {
     width: 160px;
@@ -221,4 +222,27 @@ main {padding:60px 0 0;}
 /* Plone overrides */
 .plone-toolbar-left #edit-zone {
   z-index: 2000;
+}
+
+.navbar-toggle {
+  border:0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #398eb6;
+}
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: auto;
+    height:100vh;
+}
+.main-footer .glyphicon {
+  display:none;
 }

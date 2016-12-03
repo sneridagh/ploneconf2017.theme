@@ -753,3 +753,58 @@ fieldset[disabled] .link-parent.active {
 .extra-top-padding {
   margin-top: 20px;
 }
+
+/* Albert */
+.kssattr-formname-contact-info {
+  background: #D6E0DF;
+  padding: 15px 20px 10px;
+  margin-top: 20px;
+}
+input[type="text"], input[type="password"], textarea, select {
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  background-color: rgba(255,255,255,.7);
+  border-left: 2px solid #A5A49F;
+  min-height: 50px;
+}
+textarea {min-height:200px;}
+input[type="text"]:active,
+input[type="text"]:focus,
+input[type="password"]:active,
+input[type="password"]:focus,
+textarea:active,
+textarea:focus,
+select:active,
+select:focus {
+  border-left:4px solid #398EB6;
+  box-shadow:none;
+  background-color: #fff;
+  outline: 0;
+}
+label .required::after {
+    color: #BC563B;
+    content: "■";
+    top: 0;
+    font-size: 115%;
+}
+.formControls {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding-left:0;
+}
+input#form-buttons-send {
+  background: #398EB6;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: none;
+  border: 0;
+  border-radius: 0;
+  min-height: 64px;
+  min-width: 160px;
+  font-size: 20px;
+  font-weight: 900;
+}
