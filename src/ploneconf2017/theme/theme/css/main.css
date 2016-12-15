@@ -157,7 +157,6 @@ p {font-weight:300; color:#5c5c5c; font-size:18px; margin:0 0 15px;}
   box-shadow: 0 2px 16px 0 rgba(0,0,0,0.25);
 }
 
-
 main {padding:60px 0 0;}
 .row {margin-bottom:60px;}
 .lead {color:#9B9B9B; font-size:24px; font-weight:300;margin-bottom:30px;}
@@ -190,6 +189,15 @@ main {padding:60px 0 0;}
 @media (min-width: 992px) {.btn-block-tile:after { right: -68px;}}
 @media (max-width: 991px) {.btn-block-tile:after { content:""; position: initial;}}
 @media (min-width: 1199px) {.btn-block-tile:after { right: -85px;}}
+
+.btn-block-danger {background:#BC563B;color:#fff;}
+.btn-block-danger:hover, .btn-block-danger:active, .btn-block-danger:focus {color:#fff;}
+.btn-block-circle {background: #D6E0DF; height:200px; width:100%; border-radius:50%; text-align:center; font-weight:300; font-size:16px; color:#4A4A4A; text-transform:none; display:table-cell; vertical-align:middle; margin:0 auto;}
+.btn-block-circle img {display:block; margin:0 auto;}
+.btn-block-circle em {font-style:normal; color:#348DB8;}
+.btn-block-circle:hover,.btn-block-circle:active,.btn-block-circle:focus {color:#252525;}
+@media (max-width: 991px) {.btn-block-circle  {height: auto; width:100%; display:block;border-radius:50px; margin:10px 0;}}
+
 
 .table thead tr {background:#66AAB6;}
 .table>thead>tr>th,.table>thead>tr>td,.table>tbody>tr>th,.table>tbody>tr>td {height:50px; vertical-align:middle;}
