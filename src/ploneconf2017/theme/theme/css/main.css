@@ -254,3 +254,7 @@ main {padding:60px 0 0;}
 .main-footer .glyphicon {
   display:none;
 }
+
+/* Sponsors */
+.sponsors { text-align: center }
+.sponsors h3 { color: #9B9B9B; padding-bottom: 20px; }
