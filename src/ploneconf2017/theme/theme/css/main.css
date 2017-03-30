@@ -259,3 +259,27 @@ main {padding:60px 0 0;}
 .sponsors { text-align: center }
 .sponsors h3 { color: #9B9B9B; padding-bottom: 20px; }
 .sponsors article { margin-bottom: 20px; }
+
+@media (max-width: 1199px) {.btn-block-circle  {width:262px; height:262px;}}
+.sponsors {
+background: white;
+box-shadow: 800px 0 0 white, -800px 0 0 white;
+margin-bottom: 0;
+padding: 10px;
+padding-bottom: 40px;
+text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+
+.box-main {
+height:auto;
+}
+
+.btn-block-circle {
+margin: 0 auto;
+border-radius:50%;
+padding-top:80px;
+}
+
+}
