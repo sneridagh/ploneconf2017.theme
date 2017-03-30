@@ -267,7 +267,7 @@ box-shadow: 800px 0 0 white, -800px 0 0 white;
 margin-bottom: 0;
 padding: 10px;
 padding-bottom: 40px;
-text-align: left;
+/*text-align: left;*/
 }
 
 @media screen and (max-width: 767px) {
