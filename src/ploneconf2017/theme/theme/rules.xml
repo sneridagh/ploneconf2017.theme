@@ -9,6 +9,7 @@
   <theme href="index.html" if-content="//body[contains(@class, 'section-front-page')]" />
   <theme href="contact.html" if-content="//body[contains(@class, 'template-contact-info')]" />
   <theme href="sponsors.html" if-content="//body[contains(@class, 'section-sponsor')]" />
+  <theme href="register.html" if-content="//body[contains(@class, 'section-register')]" />
 
   <notheme css:if-not-content="#visual-portal-wrapper" />
 
