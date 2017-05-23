@@ -44,13 +44,13 @@
   </replace>
 
   <!-- move global nav -->
-  <!-- <replace css:theme-children="#mainnavigation" css:content-children="#portal-mainnavigation" method="raw" /> -->
-  <replace css:theme=".nav.navbar-nav">
+  <replace css:theme-children=".nav.navbar-nav" css:content-children="#portal-globalnav" method="raw" />
+  <!-- <replace css:theme=".nav.navbar-nav">
     <ul class="nav navbar-nav">
       <li><a href="{$portal_url}/sponsors">Sponsor<span class="sr-only">(current)</span></a></li>
       <li><a href="{$portal_url}/contact-info">Contact</a></li>
     </ul>
-  </replace>
+  </replace> -->
 
   <!-- Temporal remove search -->
   <drop css:theme=".navbar-form.navbar-right" />
