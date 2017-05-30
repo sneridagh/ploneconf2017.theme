@@ -256,9 +256,29 @@ main {padding:60px 0 0;}
 }
 
 /* Sponsors */
-.sponsors { text-align: center }
+.sponsors .centered { text-align: center }
 .sponsors h3 { color: #9B9B9B; padding-bottom: 20px; }
-.sponsors article { margin-bottom: 20px; }
+.sponsors article {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-bottom: 1px solid #979797;
+}
+.sponsors article .row {
+  margin-bottom: 0;
+}
+.sponsors .bronze img {
+  height: 100px;
+}
+.sponsors .colaboring img {
+  height: 70px;
+}
+.sponsors .colaboring .tito img {
+  height: 50px;
+  margin-top: 10px;
+}
+.sponsors article:last-child {
+  border-bottom: none;
+}
 
 @media (max-width: 1199px) {.btn-block-circle  {width:262px; height:262px;}}
 .sponsors {
@@ -267,7 +287,6 @@ box-shadow: 800px 0 0 white, -800px 0 0 white;
 margin-bottom: 0;
 padding: 10px;
 padding-bottom: 40px;
-/*text-align: left;*/
 }
 
 @media screen and (max-width: 767px) {
