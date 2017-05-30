@@ -279,6 +279,15 @@ main {padding:60px 0 0;}
 .sponsors article:last-child {
   border-bottom: none;
 }
+@media screen and (max-width: 767px) {
+  .sponsors .colaboring .row div {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .sponsors .colaboring .row div:first-child {
+    margin-top: 0px;
+  }
+}
 
 @media (max-width: 1199px) {.btn-block-circle  {width:262px; height:262px;}}
 .sponsors {
