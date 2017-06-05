@@ -10,6 +10,7 @@
   <theme href="contact.html" if-content="//body[contains(@class, 'template-contact-info')]" />
   <theme href="sponsors.html" if-content="//body[contains(@class, 'section-sponsor')]" />
   <theme href="register.html" if-content="//body[contains(@class, 'section-register')]" />
+  <theme href="barcelona.html" if-content="//body[contains(@class, 'section-barcelona')]" />
 
   <notheme css:if-not-content="#visual-portal-wrapper" />
 
@@ -61,7 +62,7 @@
   <replace css:content-children=".documentFirstHeading" css:theme-children=".page-title" mode="raw" />
   <drop css:content=".documentFirstHeading" />
 
-  <rules if-not-content="//body[contains(@class, 'section-front-page')] or //body[contains(@class, 'section-sponsor')]">
+  <rules if-not-content="//body[contains(@class, 'section-front-page')] or //body[contains(@class, 'section-sponsor')] or //body[contains(@class, 'section-barcelona')]">
     <!-- Central column -->
     <replace css:theme="main" method="raw">
 
