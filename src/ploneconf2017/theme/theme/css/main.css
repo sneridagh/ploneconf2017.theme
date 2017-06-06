@@ -189,6 +189,11 @@ main {padding:60px 0 0;}
 @media (min-width: 992px) {.btn-block-tile:after { right: -68px;}}
 @media (max-width: 991px) {.btn-block-tile:after { content:""; position: initial;}}
 @media (min-width: 1199px) {.btn-block-tile:after { right: -85px;}}
+.btn-block-catalonia {background: #D9AE2B; color: #4A4A4A;}
+.btn-block-catalonia:after {content: url(../img/catalonia.svg); position:absolute; width:65px; height:65px; transform:scale(.65,.65);right: -85px;top: -11px}
+@media (min-width: 992px) {.btn-block-catalonia:after { right: -68px;}}
+@media (max-width: 991px) {.btn-block-catalonia:after { content:"";}}
+@media (min-width: 1199px) {.btn-block-catalonia:after { right: -85px;}}
 
 .btn-block-danger {background:#BC563B;color:#fff;}
 .btn-block-danger:hover, .btn-block-danger:active, .btn-block-danger:focus {color:#fff;}
