@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PC---Barcelona" transform="translate(-1340.000000, -512.000000)">
+            <g id="Page-1" transform="translate(1340.000000, 512.000000)">
+                <polygon id="Fill-1" fill="#E1CD5B" points="0 100 100 100 100 0 0 0"></polygon>
+                <polygon id="Fill-2" fill="#BC563A" points="35.5 100 45.501 100 45.501 0 35.5 0"></polygon>
+                <polygon id="Fill-3" fill="#BC563A" points="55.5 100 65.5 100 65.5 0 55.5 0"></polygon>
+                <polygon id="Fill-4" fill="#BC563A" points="14.5 100 24.5 100 24.5 0 14.5 0"></polygon>
+                <polygon id="Fill-5" fill="#BC563A" points="75.5 100 85.5 100 85.5 0 75.5 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
