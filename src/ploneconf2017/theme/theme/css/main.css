@@ -329,7 +329,12 @@ padding-top:80px;
 .contact-form-container {background:#D6E0DF;}
 .section-contact {background-color: #A2A19C;}
 .section-barcelona .header-section {background-color: #398EB6;}
+.section-talks .header-section {background-color: #BC563B;}
 
 .navbar-default .navbar-nav>.active>a:after {background-color: #A2A19C;}
 .btn-block-catalonia {background: #D9AE2B; color: #4A4A4A;}
 .btn-block-catalonia:after {content: url(../img/catalonia.svg); position:absolute; width:65px; height:65px; transform:scale(.65,.65);right: -85px;top: -11px}
+
+.keynotes { padding-left: 0; padding-right: 0}
+.keynotes img { height: 150px; display: inline-block; vertical-align: inherit; }
+.square__small--grey { margin-left: 20px; height: 150px; width: 150px; background-color: #D6E0DF; display: inline-block;}
