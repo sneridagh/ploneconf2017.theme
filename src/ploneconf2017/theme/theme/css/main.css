@@ -338,3 +338,4 @@ padding-top:80px;
 .keynotes { padding-left: 0; padding-right: 0}
 .keynotes img { height: 150px; display: inline-block; vertical-align: inherit; }
 .square__small--grey { margin-left: 20px; height: 150px; width: 150px; background-color: #D6E0DF; display: inline-block;}
+.section-register .row { margin-bottom: 20px; }
