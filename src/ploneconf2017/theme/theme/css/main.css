@@ -336,6 +336,7 @@ padding-top:80px;
 .section-talks .header-section {background-color: #BC563B;}
 
 .navbar-default .navbar-nav>.active>a:after {background-color: #A2A19C;}
+.navbar-default .navbar-nav>.selected>a:after {background-color: #A2A19C;}
 .btn-block-catalonia {background: #D9AE2B; color: #4A4A4A;}
 .btn-block-catalonia:after {content: url(../img/catalonia.svg); position:absolute; width:65px; height:65px; transform:scale(.65,.65);right: -85px;top: -11px}
 
