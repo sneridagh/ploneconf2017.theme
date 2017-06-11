@@ -47,6 +47,8 @@ p {font-weight:300; color:#5c5c5c; font-size:18px; margin:0 0 15px;}
 .navbar .form-group:hover + button {background-color:rgba(255,255,255,.1875);}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {background:transparent; color:#fff; opacity:1;}
 .navbar-default .navbar-nav>.active>a:after {content: "";position: absolute;height: 3px;width: calc(100% - 30px);background-color: #d9ae2b;left: 0;margin: 0 15px;margin-top: 3px;bottom: 8px;}
+.navbar-default .navbar-nav>.selected>a, .navbar-default .navbar-nav>.selected>a:focus, .navbar-default .navbar-nav>.selected>a:hover {background:transparent; color:#fff; opacity:1;}
+.navbar-default .navbar-nav>.selected>a:after {content: "";position: absolute;height: 3px;width: calc(100% - 30px);background-color: #d9ae2b;left: 0;margin: 0 15px;margin-top: 3px;bottom: 8px;}
 
 @media screen and (max-width: 767px) {
   .navbar {
