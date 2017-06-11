@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PC---Home---Conference" transform="translate(-450.000000, -2622.000000)">
+            <g id="Page-1" transform="translate(450.000000, 2622.000000)">
+                <polygon id="Fill-1" fill="#E0DED2" points="0 100 100 100 100 0 0 0"></polygon>
+                <polygon id="Fill-2" fill="#BC563A" points="60.0003 60.0004 100.0003 100.0004 100.0003 80.0004 80.0003 60.0004"></polygon>
+                <polygon id="Fill-3" fill="#BC563A" points="0 0.0001 40 40.0001 40 20.0001 20 0.0001"></polygon>
+                <polygon id="Fill-4" fill="#BC563A" points="80 73 27 73 27 20 40 20 40 60 80 60"></polygon>
+                <g id="Group-17">
+                    <path d="M53,0 L40,0 C40,33.137 66.863,60 100,60 L100,47 C74.042,47 53,25.957 53,0" id="Fill-5" fill="#BC563A"></path>
+                    <polygon id="Fill-7" fill="#DEB525" points="61 54 46 54 46 39"></polygon>
+                    <polygon id="Fill-9" fill="#DEB525" points="40 100 0 100 0 60"></polygon>
+                    <polygon id="Fill-11" fill="#DEB525" points="27 0 34 0 34 7"></polygon>
+                    <polygon id="Fill-13" fill="#DEB525" points="93 65 100 65 100 72"></polygon>
+                    <path d="M60,0 C60,22.091 77.909,40 100,40 L100,0 L60,0 Z" id="Fill-15" fill="#DBBC9A"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

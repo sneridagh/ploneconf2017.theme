@@ -1,5 +1,6 @@
 require([
-  'jquery'
+  'jquery',
+  'resource-plone-app-jquerytools-js'
 ], function($){
 
   var cycle = function(){
@@ -35,7 +36,19 @@ require([
     });
   };
 
+  var prepareImagePreviews = function () {
+
+        // https://pypi.python.org/pypi/plone.app.jquerytools/1.4#examples
+        $('.image-preview')
+        .prepOverlay({
+            subtype: 'image',
+            urlmatch: 'thumb',
+            urlreplace: 'large'
+            });
+        }
+
   $(document).ready(function(){
     smooth();
+    prepareImagePreviews();
   });
 });
