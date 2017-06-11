@@ -63,7 +63,7 @@
   <replace css:content-children=".documentFirstHeading" css:theme-children=".page-title" mode="raw" />
   <drop css:content=".documentFirstHeading" />
 
-  <rules if-not-content="//body[contains(@class, 'section-front-page')] or //body[contains(@class, 'section-sponsor')] or //body[contains(@class, 'section-barcelona')]">
+  <rules if-not-content="//body[contains(@class, 'section-front-page')] or //body[contains(@class, 'section-sponsor')] or //body[contains(@class, 'section-barcelona')] or //body[contains(@class, 'section-demo')]">
     <!-- Central column -->
     <replace css:theme="main" method="raw">
 
