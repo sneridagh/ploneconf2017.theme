@@ -407,6 +407,12 @@ padding-top:80px;
 @media (max-width: 1199px) {.box-7 {height: 380px;}.box-barcelona {margin-top:160px;} .box-barcelona:after {margin-top: -160px; width:calc((100% - 71px) / 3); box-shadow: -163px 0 0 0 #A2A19C, -326px 0 0 0 #D6E0DF;background-size: 128px 128px; height:128px;}}
 @media (max-width: 991px) {.box-7 {margin-top:15px;} .box-barcelona {top:0;} .box-barcelona:after { display:none;} .box-barcelona .box-main {height:200px;}}
 
+.btn-block-barcelona {background: #D9AE2B; color: #4A4A4A;}
+.btn-block-barcelona:after {content: url(../img/barcelona.svg); position:absolute; width:65px; height:65px; transform:scale(.65,.65);right: -85px;top: -11px}
+@media (min-width: 992px) {.btn-block-barcelona:after { right: -68px;}}
+@media (max-width: 991px) {.btn-block-barcelona:after { content:"";}}
+@media (min-width: 1199px) {.btn-block-barcelona:after { right: -85px;}}
+
 /* Contact */
 fieldset {
   padding: 0;
