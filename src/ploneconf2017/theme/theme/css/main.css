@@ -1216,3 +1216,51 @@ input#form-buttons-send {
   font-size: 20px;
   font-weight: 900;
 }
+
+/*formulari*/
+.formQuestion {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 6px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  padding: 0;
+}
+input[type="radio"], input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+  border: 1px solid #ccc;
+  background: white;
+  -webkit-appearance:none;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  position: relative
+}
+input[type="radio"], input[type="radio"]:after {border-radius:50%;}
+input[type="radio"]:checked:after, input[type="checkbox"]:checked:after {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background:#398EB6;
+  z-index: 1;
+  content:"";
+  margin-top: 4px;
+  margin-left: 4px;
+}
+.context {
+  background: #398EB6;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: none;
+  border: 0;
+  border-radius: 0;
+  min-height: 64px;
+  min-width: 160px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.formQuestion ~ input + label, .ArchetypesMultiSelectionValue label {font-weight:300;}
