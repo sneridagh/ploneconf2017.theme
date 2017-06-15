@@ -119,7 +119,7 @@ p {font-weight:300; color:#5c5c5c; font-size:18px; margin:0 0 15px;}
 .header-section .container {height:310px;}
 @media (max-width: 767px) {
   .header-section h1 img {width:96px;top:30px;position:relative;}
-  .header-section h1 + h1 {font-size:48px; margin-right:0;}
+  .header-section h1 + h1 {font-size:48px; margin-right:0; bottom: 40px;}
 }
 
 @media (max-width: 769px) {
@@ -1303,3 +1303,37 @@ input[type="radio"]:checked:after, input[type="checkbox"]:checked:after {
 .keynotes .row .col-md-6:nth-child(8) .talker-img + div {background: #A2A19C;}
 .keynotes .row .col-md-6:nth-child(9) .talker-img + div {background: url(../img/tile-4.svg); background-size: 160px 160px;}
 .keynotes .row .col-md-6:nth-child(10) .talker-img + div {background: #DBBB9A;}
+
+@media (max-width: 991px) {
+  .box-barcelona .box-main {
+     height: 280px;
+  }
+  .box-7 {
+     height: 500px;
+  }
+}
+
+.talker-img + div {
+ margin-left: 30px;
+ height: 140px;
+ width: 140px;
+ display: inline-block;
+}
+
+.talker-img {
+ margin-top: 30px;
+ width: 140px !important;
+ height: 140px !important;
+}
+
+.vimeovideo {
+  width: 100%;
+  height: 600px;
+}
+
+@media (max-width: 991px) {
+  .vimeovideo {
+    width: 100%;
+    height: 300px;
+  }
+}
