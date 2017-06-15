@@ -264,6 +264,7 @@ main {padding:60px 0 0;}
 
 /* Sponsors */
 .sponsors .centered { text-align: center }
+.sponsors .centered.plus { padding-top: 40px; }
 .sponsors h3 { color: #9B9B9B; padding-bottom: 20px; }
 .sponsors article {
   padding-bottom: 40px;
@@ -276,6 +277,15 @@ main {padding:60px 0 0;}
 .sponsors .bronze img {
   height: 100px;
 }
+.sponsors .makinacorpus img {
+  width: 350px;
+}
+.sponsors .upcnet img {
+  width: 300px;
+}
+.sponsors .ithinkupc img {
+  width: 300px;
+}
 .sponsors .colaboring img {
   height: 70px;
 }
@@ -287,12 +297,24 @@ main {padding:60px 0 0;}
   border-bottom: none;
 }
 @media screen and (max-width: 767px) {
+  .sponsors article .row {
+    margin-bottom: 60px;
+  }
   .sponsors .colaboring .row div {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .sponsors .silver .row div,
+  .sponsors .bronze .row div,
+  .sponsors .centered.plus .row div {
     margin-top: 50px;
     text-align: center;
   }
   .sponsors .colaboring .row div:first-child {
     margin-top: 0px;
+  }
+  .sponsors .makinacorpus img {
+    width: 300px;
   }
 }
 
