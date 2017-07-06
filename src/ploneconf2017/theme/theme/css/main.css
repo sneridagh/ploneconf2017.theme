@@ -267,7 +267,7 @@ main {padding:60px 0 0;}
 .sponsors .centered.plus { padding-top: 40px; }
 .sponsors h3 { color: #9B9B9B; padding-bottom: 20px; }
 .sponsors article {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-top: 20px;
   border-bottom: 1px solid #979797;
 }
@@ -276,6 +276,9 @@ main {padding:60px 0 0;}
 }
 .sponsors .bronze img {
   height: 100px;
+}
+.sponsors .kitconcept img {
+  width: 300px;
 }
 .sponsors .makinacorpus img {
   width: 350px;
@@ -312,6 +315,9 @@ main {padding:60px 0 0;}
   }
   .sponsors .colaboring .row div:first-child {
     margin-top: 0px;
+  }
+  .sponsors .kitconcept img {
+    margin-top: 50px;
   }
   .sponsors .makinacorpus img {
     width: 300px;
