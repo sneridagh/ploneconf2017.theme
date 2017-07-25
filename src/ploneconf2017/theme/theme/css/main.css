@@ -1365,3 +1365,12 @@ input[type="radio"]:checked:after, input[type="checkbox"]:checked:after {
     height: 300px;
   }
 }
+@media screen and (max-width: 767px) {
+  .person-text .description {
+    text-align: center;
+  }
+}
+
+.training-byline {
+  font-weight: 300;
+}

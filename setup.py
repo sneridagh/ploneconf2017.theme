@@ -44,7 +44,8 @@ setup(
         'z3c.jbot',
         'plone.app.theming',
         'plone.app.themingplugins',
-        'collective.recaptchacontactform'
+        'collective.recaptchacontactform',
+        'collective.pantry'
     ],
     extras_require={
         'test': [
