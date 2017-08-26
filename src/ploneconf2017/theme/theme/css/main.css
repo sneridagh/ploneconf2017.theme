@@ -220,7 +220,7 @@ main {padding:60px 0 0;}
   .table-responsive:after {content:"Scroll horizontally to read table"; position:absolute; color:#9B9B9B; font-size:12px; margin-top:5px;}
 }
 
-.main-footer {background:#535353; min-height:80px; padding-top:30px;}
+.main-footer {background:#535353; min-height:130px; padding-top:30px;}
 .main-footer .row {margin:0}
 .main-footer small {color:#fff; font-weight:300;}
 .main-footer a {color:#ECEFEF;}
@@ -288,6 +288,14 @@ main {padding:60px 0 0;}
 }
 .sponsors .ithinkupc img {
   width: 300px;
+  margin-top: 10px;
+}
+.sponsors .sixfeetup img {
+  width: 300px;
+}
+.sponsors .wildcard img {
+  width: 300px;
+  margin-top: 30px;
 }
 .sponsors .colaboring img {
   height: 70px;
@@ -1373,4 +1381,10 @@ input[type="radio"]:checked:after, input[type="checkbox"]:checked:after {
 
 .training-byline {
   font-weight: 300;
+}
+
+.main-footer .row.notincpor {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
