@@ -280,6 +280,9 @@ main {padding:60px 0 0;}
 .sponsors .kitconcept img {
   width: 300px;
 }
+.sponsors .onna img {
+  width: 220px;
+}
 .sponsors .makinacorpus img {
   width: 350px;
 }
@@ -292,10 +295,15 @@ main {padding:60px 0 0;}
 }
 .sponsors .sixfeetup img {
   width: 300px;
+  padding-bottom: 25px;
 }
 .sponsors .wildcard img {
   width: 300px;
   margin-top: 30px;
+  padding-bottom: 25px;
+}
+.sponsors .codesyntax img {
+  width: 300px;
 }
 .sponsors .colaboring img {
   height: 70px;
@@ -303,6 +311,9 @@ main {padding:60px 0 0;}
 .sponsors .colaboring .tito img {
   height: 50px;
   margin-top: 10px;
+}
+.sponsors .colaboring .jetbrains img {
+  height: 100px;
 }
 .sponsors article:last-child {
   border-bottom: none;
@@ -1387,4 +1398,44 @@ input[type="radio"]:checked:after, input[type="checkbox"]:checked:after {
   text-align: center;
   font-size: 18px;
   margin-bottom: 20px;
+}
+
+.relatedItems header {
+  display: none;
+}
+
+.relatedItems ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.relatedItems li {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #535353;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+.relatedItems li a {
+  position: relative;
+  color: #FFF;
+  display:inline-block;
+  width:100%;
+  height:100%;
+}
+
+span.contenttype-presentation {
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 60px 20px 0 20px;
+  text-align: center;
+}
+
+.talk h3 {
+  margin-top: .5em;
 }
