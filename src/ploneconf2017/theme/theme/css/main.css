@@ -305,6 +305,20 @@ main {padding:60px 0 0;}
 .sponsors .codesyntax img {
   width: 300px;
 }
+.sponsors .pysf img {
+  width: 300px;
+}
+.sponsors .fourteamwork img {
+  width: 300px;
+  padding-bottom: 85px;
+}
+.sponsors .cmscom img {
+  height: 70px;
+}
+.sponsors .vnc img {
+  height: 170px;
+  padding-left: 90px;
+}
 .sponsors .colaboring img {
   height: 70px;
 }
@@ -326,6 +340,7 @@ main {padding:60px 0 0;}
     margin-top: 50px;
     text-align: center;
   }
+  .sponsors .gold .row div,
   .sponsors .silver .row div,
   .sponsors .bronze .row div,
   .sponsors .centered.plus .row div {
@@ -341,6 +356,13 @@ main {padding:60px 0 0;}
   .sponsors .makinacorpus img {
     width: 300px;
   }
+  .sponsors .fourteamwork img {
+    padding: 0;
+  }
+  .sponsors .vnc img {
+    padding-left: 0;
+  }
+
 }
 
 /*@media (max-width: 1199px) {
