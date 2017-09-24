@@ -59,8 +59,16 @@
   <!-- full-width breadcrumb -->
   <replace css:content="#viewlet-above-content" css:theme="#above-content" />
 
-  <replace css:content-children=".documentFirstHeading" css:theme-children=".page-title" mode="raw" />
-  <drop css:content=".documentFirstHeading" />
+  <rules if-not-path="/talks/">
+    <replace css:content-children=".documentFirstHeading" css:theme-children=".page-title" mode="raw" />
+    <drop css:content=".documentFirstHeading" />
+  </rules>
+
+  <rules if-path="/talks/">
+    <!-- do not copy the all-talks tile's title -->
+    <replace css:theme-children=".page-title" content-children='//*[@id="content"]/div/div/div[5]/div/h1' mode="raw" />
+    <drop css:content=".documentFirstHeading" />
+  </rules>
 
   <rules if-not-content="//body[contains(@class, 'section-front-page')] or //body[contains(@class, 'section-sponsor')] or //body[contains(@class, 'section-barcelona')]">
     <!-- Central column -->
