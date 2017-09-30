@@ -329,6 +329,10 @@ main {padding:60px 0 0;}
 .sponsors .colaboring .jetbrains img {
   height: 100px;
 }
+.sponsors .colaboring .angularbeers img {
+  height: 120px;
+  margin: -20px;
+}
 .sponsors article:last-child {
   border-bottom: none;
 }
