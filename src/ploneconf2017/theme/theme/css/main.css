@@ -302,6 +302,9 @@ main {padding:60px 0 0;}
   margin-top: 30px;
   padding-bottom: 25px;
 }
+.sponsors .wildcard-support img {
+  width: 300px;
+}
 .sponsors .codesyntax img {
   width: 300px;
 }
@@ -344,6 +347,7 @@ main {padding:60px 0 0;}
     margin-top: 50px;
     text-align: center;
   }
+  .sponsors .venue-support .row div,
   .sponsors .gold .row div,
   .sponsors .silver .row div,
   .sponsors .bronze .row div,
