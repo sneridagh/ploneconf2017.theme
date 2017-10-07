@@ -1499,3 +1499,32 @@ div[class$="keynoters-tile"] + .mosaic-IRichText-text-tile section.row {
     right: 0px;
     display: inline-block;
 }
+
+.subsection-talks-schedule .row {
+  margin-bottom: 20px;
+}
+/* .subsection-talks-schedule .mosaic-grid-row-blue.row,
+.subsection-talks-schedule .mosaic-grid-row-yellow.row {
+  border-top: 1px solid grey;
+} */
+
+.PresentationTile h3::after {
+  content: "";
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.PresentationTile.blue h3::after {
+  background-color: #3579AE;
+}
+
+.PresentationTile.red h3::after {
+  background-color: rgb(180, 28, 28);
+}
+
+.PresentationTile.green h3::after {
+  background-color: #75C86C;
+}
