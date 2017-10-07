@@ -1528,3 +1528,13 @@ div[class$="keynoters-tile"] + .mosaic-IRichText-text-tile section.row {
 .PresentationTile.green h3::after {
   background-color: #75C86C;
 }
+
+.leadImage {
+  float: right;
+  margin-left: 20px;
+}
+
+.section-party .leadImage img {
+  height: 500px;
+  width: 350px;
+}
