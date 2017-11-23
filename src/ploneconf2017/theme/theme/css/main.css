@@ -1503,10 +1503,10 @@ div[class$="keynoters-tile"] + .mosaic-IRichText-text-tile section.row {
 .subsection-talks-schedule .row {
   margin-bottom: 20px;
 }
-/* .subsection-talks-schedule .mosaic-grid-row-blue.row,
+
 .subsection-talks-schedule .mosaic-grid-row-yellow.row {
   border-top: 1px solid grey;
-} */
+}
 
 .PresentationTile h3::after {
   content: "";
